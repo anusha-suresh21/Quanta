@@ -1,10 +1,4 @@
 (function(){
-  // Image slots: show a photo only when its file exists in assets/images/
-  document.querySelectorAll('[data-img]').forEach(function(el){
-    var src=el.getAttribute('data-img'),i=new Image();
-    i.onload=function(){el.style.backgroundImage='url("'+src+'")';el.classList.add('has-img');};
-    i.src=src;
-  });
   var btn=document.querySelector('.menu-btn'),links=document.querySelector('.nav-links');
   if(btn&&links){btn.addEventListener('click',function(){
     var o=links.classList.toggle('open');btn.setAttribute('aria-expanded',o?'true':'false');

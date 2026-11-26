@@ -1,5 +1,0 @@
-Double-click index.html to open the site in your browser.
-All pages link to each other, no server needed.
-Photos are in assets\images.
-Upload this whole folder to your web host to publish it.
-The font loads from Google Fonts, so it needs an internet connection.

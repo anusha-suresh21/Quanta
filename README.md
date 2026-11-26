@@ -1,10 +1,7 @@
-# Quantiva Tech Digital L.L.C. website (HTML)
+# Quantiva Tech Digital L.L.C. website
 
-Static HTML website. Open `index.html` in a browser (no server needed), or upload the whole
-folder to any web host.
+Static HTML website, ready to host (Vercel, Netlify or any static host). No build step: publish the repository root.
 
-- Pages: Home, About, Services (13 service pages), Industries, Insights, Contact, Privacy Policy
-- Photos: `assets/images/` (hero, banner, about, services, contact)
 - Contact: info@quantivatechdigital.com, Dubai, UAE
-
-Still to add before launch: phone number, office address, business hours, logo.
+- `vercel.json` sets trailing slashes and asset caching
+- Still to add before launch: phone number, office address, business hours, logo

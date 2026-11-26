@@ -1,4 +1,10 @@
 (function(){
+  // One-roof expanding panels
+  var rx=[].slice.call(document.querySelectorAll('.roofx .rx'));
+  rx.forEach(function(p){
+    function on(){rx.forEach(function(o){o.classList.toggle('is-active',o===p);});}
+    p.addEventListener('mouseenter',on);p.addEventListener('focusin',on);p.addEventListener('click',on);
+  });
   // Hero picture slider
   var box=document.getElementById('hero-slides');
   if(box){

@@ -246,6 +246,8 @@ form .btn{justify-content:space-between;width:100%;border:0;cursor:pointer;font-
 .site-footer ul{list-style:none;padding:0;margin:0}
 .site-footer li{margin-bottom:8px}
 .site-footer a{text-decoration:none;color:#c3c9e6}.site-footer a:hover{color:#fff;text-decoration:underline}
+.licence{font-size:.82rem;color:#9fb3ff;margin:34px 0 0;padding-top:20px;border-top:1px solid rgba(255,255,255,.12)}
+.licence+.legal{margin-top:14px;border-top:0;padding-top:0}
 .legal{border-top:1px solid rgba(255,255,255,.12);margin-top:40px;padding-top:20px;font-size:.85rem;display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between}
 .prose h2{margin-top:2rem;font-size:1.5rem}
 .prose{max-width:780px}
